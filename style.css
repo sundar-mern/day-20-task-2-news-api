@@ -1,0 +1,55 @@
+.container{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+body{
+    background-color: rgb(97, 12, 255);
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.parent{
+    width: 400px;
+    height: 600px;
+    border: 2px solid ghostwhite;
+    border-radius: 5px;
+}
+
+.parent:hover{
+    background-color: linen;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border: lightblue;
+
+}
+button:hover{
+    background-color: azure;
+}
+
+h1{
+    height: 50px;
+    width: 100%;
+    background-color: gold
+}
+
+.footer{
+    text-align: center;
+    position: absolute;
+    top:6300px;
+    width: 100%;
+    height: 50px;
+    background:  violet;
+    font-display: center;
+}
